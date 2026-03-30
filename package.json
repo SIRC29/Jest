@@ -1,0 +1,24 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "jest": {
+    "testMatch": [
+      "**/__tests__/**/*.?([mc])[jt]s?(x)",
+      "**/?(*.)+(spec|test|teste).?([mc])[jt]s?(x)"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  },
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}
